@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to right,aqua,yellow);
+}
+.container{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#header{
+    text-transform: uppercase;
+    color: red;
+}
+#count{
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-left: 2em;
+}
+#btn1{
+    background: tomato;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    border: 0.2em solid tomato;
+    color: white;
+    font-weight: bold;
+}
+#btn2{
+    background: blue;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    border: 0.2em solid blue;
+    color: white;
+    font-weight: bold;
+}
+#display{
+    text-align: center;
+    font-size: 1.2em;
+}
